@@ -2,6 +2,23 @@ g_taxi_taxi_driver_homepage:
     path:     /hello/{name}
     defaults: { _controller: GTaxiTaxiDriverBundle:Default:index }
 
+
 index:
-    path:     mytaxi/index
-    defaults: { _controller: GTaxiTaxiDriverBundle:Taxi:index }
+    path:     /
+    defaults: { _controller: GTaxiTaxiDriverBundle:YourTaxi:index }
+
+_agence:
+    path:     /Agence
+    defaults: { _controller: GTaxiTaxiDriverBundle:YourTaxi:Agence }
+
+_driver:
+    path:     /Driver
+    defaults: { _controller: GTaxiTaxiDriverBundle:YourTaxi:Driver }
+
+_client:
+    path:     /Client
+    defaults: { _controller: GTaxiTaxiDriverBundle:YourTaxi:Client }
+
+_administrator:
+    path:     /Administrator
+    defaults: { _controller: GTaxiTaxiDriverBundle:YourTaxi:Administrator }
