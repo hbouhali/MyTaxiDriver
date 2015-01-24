@@ -1,0 +1,7 @@
+g_taxi_taxi_driver_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: GTaxiTaxiDriverBundle:Default:index }
+
+index:
+    path:     mytaxi/index
+    defaults: { _controller: GTaxiTaxiDriverBundle:Taxi:index }

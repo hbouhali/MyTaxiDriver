@@ -1,0 +1,4 @@
+services:
+#    g_taxi_taxi_driver.example:
+#        class: GTaxi\TaxiDriverBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

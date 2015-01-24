@@ -1,0 +1,4 @@
+g_taxi_taxi_driver:
+    resource: "@GTaxiTaxiDriverBundle/Resources/config/routing.yml"
+    prefix:   /
+
